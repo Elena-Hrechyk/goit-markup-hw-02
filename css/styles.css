@@ -21,11 +21,7 @@ body {
   color: var(--color-main);
   font-family: var(--font-main);
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  width: 1440px;
 }
 
 /* Обнуление маркировки у списках*/
@@ -56,6 +52,9 @@ body {
 
 /* Навігація site-nav */
 .site-nav .link {
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--color-title);
   text-decoration: none;
 }
@@ -66,13 +65,15 @@ body {
   text-decoration: underline;
 }
 
-.site-nav .link.current {
+/* .site-nav .link.current {
   color: var(--color-focus);
   text-decoration: underline;
-}
+} */
 
 /* Контактні лінки */
 .contacts .link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--color-main);
 }
@@ -86,21 +87,24 @@ body {
 /* Секція Герой */
 .hero {
   background: #2E2F42;
-  height: 603px;
   text-align: center;
 }
 
 .hero .hero-title {
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em; 
   color: #FFFFFF;
 }
 
 .hero .hero-btn {
   cursor: pointer;
+  font-family: var(--font-main);
+  font-weight: 700;
   line-height: 1.19;
-  align-items: center;
   letter-spacing: 0.04em;
+  align-items: center;
   color: #FFFFFF;
   width: 170px;
   height: 51px;
@@ -113,6 +117,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
@@ -122,17 +127,14 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-title);
 }
 
 /* Про студию */
-.about > .about-item {
-  width: 264px;
-  height: 104px;
-}
-
-.about .list-title {
-  margin-bottom: 8px;
+.about-item .text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Команда студії */
@@ -146,19 +148,22 @@ body {
 }
 
 .team-item .list-title {
-  margin-top: 32px;
-  margin-bottom: 8px;
   text-align: center;
 }
 
 .team-item .text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
 /* Оформлення кнопок Портфоліо */
 .projects-btn .btn {
   cursor: pointer;
+  font-family: var(--font-main);
   font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--color-focus);
   background: var(--bg-color-secondary);
   border: 1px solid #e7e9fc;
@@ -187,23 +192,26 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
-  margin-top: 32px;
-  margin-left: 16px;
-  margin-bottom: 8px;
+  letter-spacing: 0.02em;
 }
 
 .projects-list .text {
-  margin-left: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-main);
 }
 
 /* Футер */
 footer {
   background: #2e2f42;
   color: #e7e9fc;
-  width: 1440px;
-  height: 310px;
 }
 
 .logo-footer {
   color: #f4f4fd;
+}
+
+footer .text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
